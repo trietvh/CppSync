@@ -9,6 +9,7 @@ int main()
    cin >> numOfTest;
    for (int i = 0; i < numOfTest; i++)
    {
+      int i = 0;
       vector<int> array{};
       CustomFunc::getVecIn(array, 1);
       Kata kata;
